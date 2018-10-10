@@ -1,0 +1,4 @@
+<button (click)="getStartCordinates()" [disabled]="is_start_disabled" class="prime dis_{{is_start_disabled}}">Start</button><br/>
+<button (click)="getEndCordinates()"  class="prime dis_{{is_end_disabled}}" [disabled]="is_end_disabled">End</button><br/>
+<button (click)="deleteLastPoint()"  class="prime dis_{{is_delete_disabled}}" [disabled]="is_delete_disabled">Delete</button><br/>
+<button (click)="finish()"  class="prime dis_{{is_finish_disabled}}" [disabled]="is_finish_disabled">Finish</button><br/>
